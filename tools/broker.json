@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Amber Burke",
+      "location": "North America",
+      "description": "Amber Burke is a seasoned business broker with over 15 years of experience in helping small businesses secure lucrative deals in the North American market.",
+      "photo": "broker1.jpg"
+    },
+    {
+      "name": "Anna-Louisa Werner",
+      "location": "Europe",
+      "description": "Anna-Louisa specializes in cross-border mergers and acquisitions, guiding businesses through the complexities of the European market.",
+      "photo": "broker2.jpg"
+    },
+    {
+      "name": "Ashwin Almeida",
+      "location": "Australia",
+      "description": "Ashwin has worked with entrepreneurs and small business owners across Australia, helping them scale and sell their businesses effectively.",
+      "photo": "broker3.jpg"
+    },
+    {
+      "name": "Caryl Nonato",
+      "location": "Asia",
+      "description": "Caryl is an expert in digital asset transactions and has helped businesses in Asia grow their online portfolios.",
+      "photo": "broker4.jpg"
+    },
+    {
+      "name": "Diego Santos",
+      "location": "South America",
+      "description": "With a decade of experience in the South American market, Diego has helped numerous startups and small businesses find buyers and close deals.",
+      "photo": "broker5.jpg"
+    },
+    {
+      "name": "Isabella Rios",
+      "location": "Europe",
+      "description": "Isabella Rios is a top-performing broker in the European market, specializing in business acquisitions and high-value negotiations.",
+      "photo": "broker6.jpg"
+    }
+  ]
+  

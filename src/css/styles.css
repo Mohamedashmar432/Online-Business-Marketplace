@@ -1,0 +1,853 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.navbar {
+  background-color: dodgerblue;
+}
+.navbar .navbar-brand {
+  font-size: xx-large;
+  font-weight: 700;
+  color: white;
+}
+.navbar .nav-link {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+.navbar .nav-link:hover {
+  color: black !important;
+}
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+.navbar .dropdown-menu {
+  transition: all 0.3s ease;
+  opacity: 0;
+  margin-top: 30px;
+  visibility: hidden;
+  transform: translateY(10px);
+}
+.navbar .dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.navbar .navbar-toggler {
+  border: none;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.dropdown-item {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hero-section {
+  padding: 15px 65px;
+}
+.hero-section .container-x {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.hero-section .hero-text .hero-title {
+  color: #000;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: start;
+}
+.hero-section .hero-text .hero-title .highlight {
+  color: #1E90FF;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.hero-section .hero-text .hero-subtitle {
+  color: #5b5b5b;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 1rem;
+  text-align: start;
+}
+.hero-section .hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    padding: 15px 30px;
+  }
+  .hero-section .hero-text {
+    margin-top: 50px;
+  }
+  .hero-section .hero-text .hero-title {
+    font-size: 42px;
+  }
+  .hero-section .hero-text .hero-subtitle {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 10px 20px;
+  }
+  .hero-section .hero-text {
+    margin-top: 30px;
+  }
+  .hero-section .hero-text .hero-title {
+    font-size: 36px;
+  }
+  .hero-section .hero-text .hero-subtitle {
+    font-size: 16px;
+  }
+  .hero-section .image-content {
+    margin-top: 20px;
+  }
+}
+.feature {
+  padding: 5px 65px;
+}
+.feature .feature-title {
+  font-size: 28px;
+}
+.feature .feature-title .feature-title-highlight {
+  color: dodgerblue;
+}
+.feature .feature-card {
+  background-color: gainsboro;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature .feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: rgba(30, 144, 255, 0.05);
+}
+.feature .feature-card .feature-link {
+  text-decoration: none;
+  color: transparent;
+}
+.feature .feature-card .card-body {
+  padding: 20px;
+}
+.feature .feature-card .card-body .feature-icon {
+  font-size: 2rem;
+  color: #1E90FF;
+  margin-bottom: 15px;
+}
+.feature .feature-card .card-body .card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+.feature .feature-card .card-body .card-text {
+  font-size: 0.875rem;
+  color: #343a40;
+}
+
+@media (max-width: 768px) {
+  .feature {
+    padding: 5px 30px;
+  }
+  .feature .feature-card {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .feature {
+    padding: 5px 15px;
+  }
+}
+.about-section {
+  padding: 10px 75px;
+}
+@media (max-width: 992px) {
+  .about-section {
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 768px) {
+  .about-section {
+    padding: 10px 15px;
+  }
+}
+
+.about-container {
+  max-width: 100%;
+}
+
+.about-badge-container .about-badge {
+  background-color: #1E90FF;
+  color: white;
+}
+
+.about-title {
+  font-size: 28px;
+}
+.about-title .about-title-highlight {
+  color: dodgerblue;
+}
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 24px;
+  }
+}
+
+.about-image-container {
+  text-align: center;
+}
+.about-image-container .about-image {
+  height: 100%;
+  max-height: 500px;
+  width: auto;
+}
+@media (max-width: 768px) {
+  .about-image-container {
+    margin-bottom: 20px;
+  }
+  .about-image-container .about-image {
+    max-height: 300px;
+  }
+}
+
+.about-text-container .about-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: #5b5b5b;
+}
+@media (max-width: 768px) {
+  .about-text-container .about-paragraph {
+    font-size: 18px;
+  }
+}
+
+.categories {
+  padding: 5px 75px;
+}
+@media (max-width: 992px) {
+  .categories {
+    padding: 5px 30px;
+  }
+}
+@media (max-width: 768px) {
+  .categories {
+    padding: 5px 15px;
+  }
+}
+.categories .highlight-text {
+  color: dodgerblue;
+}
+.categories .category-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+.categories .category-card:hover {
+  border-color: #1e90ff;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.categories .category-card .category-content {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.categories .category-card .category-content .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.categories .category-card .category-content .icon-box .icon-img {
+  width: 32px;
+  height: 32px;
+}
+.categories .category-card .category-content .category-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+.categories .card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  .category-card .category-title {
+    font-size: 14px;
+  }
+  .col-sm-6 {
+    max-width: 50%;
+  }
+}
+.pricing {
+  padding: 10px 75px;
+}
+@media (max-width: 992px) {
+  .pricing {
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 768px) {
+  .pricing {
+    padding: 10px 15px;
+  }
+}
+.pricing .highlight-text {
+  color: #1E90FF;
+}
+.pricing .pricing-card {
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  border: 1px solid #ddd;
+}
+.pricing .pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.pricing .pricing-card .card-header {
+  padding: 20px;
+  background-image: url("./path-to-your-background-image.png");
+  background-size: cover;
+  border-bottom: none;
+}
+.pricing .pricing-card .price {
+  font-size: 32px;
+  font-weight: bold;
+}
+.pricing .pricing-card .price span {
+  font-size: 18px;
+}
+.pricing .pricing-card .list-unstyled {
+  margin: 20px 0;
+}
+.pricing .pricing-card .list-unstyled li {
+  font-size: 14px;
+  padding: 5px 0;
+}
+.pricing .pricing-card .list-unstyled li i {
+  margin-right: 8px;
+  color: dodgerblue;
+}
+.pricing .pricing-card .list-unstyled li.text-muted {
+  color: #aaa;
+}
+.pricing .pricing-card .list-unstyled li.text-muted i {
+  color: #ddd;
+}
+.pricing .pricing-card .btn {
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+.contact .info {
+  padding: 20px 0;
+}
+.contact .info .info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.contact .info .info-item i {
+  font-size: 24px;
+  margin-right: 15px;
+  color: dodgerblue;
+}
+.contact .info .info-item h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.contact .info .info-item a {
+  text-decoration: none;
+  color: dodgerblue;
+  display: ruby;
+}
+.contact .info .info-item p {
+  margin: 0;
+  font-size: 14px;
+}
+.contact .info .info-item:hover {
+  transform: scale(1.05);
+}
+.contact form {
+  background-color: #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.contact form input,
+.contact form textarea {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 14px;
+}
+.contact form input:focus,
+.contact form textarea:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.3);
+}
+.contact form button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+.contact form button:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 768px) {
+  .contact .info {
+    text-align: center;
+  }
+  .contact .info .info-item {
+    justify-content: center;
+  }
+}
+
+.footer {
+  background-color: dodgerblue;
+  color: #ddd;
+  padding: 20px 0;
+}
+.footer h5 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.footer p,
+.footer ul,
+.footer li,
+.footer a {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+}
+.footer p:hover,
+.footer ul:hover,
+.footer li:hover,
+.footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.footer .social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ccc;
+  font-size: 24px;
+}
+.footer .social-links a:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+  .footer .col-md-6 {
+    margin-bottom: 20px;
+  }
+}
+.buyer-section {
+  padding: 20px 40px;
+}
+@media (max-width: 768px) {
+  .buyer-section {
+    padding: 10px 15px;
+  }
+}
+.buyer-section .search-input,
+.buyer-section .search-select,
+.buyer-section .search-btn {
+  transition: transform 0.3s ease;
+}
+.buyer-section .search-input:hover,
+.buyer-section .search-select:hover {
+  transform: scale(1.02);
+}
+.buyer-section .search-btn:hover {
+  background-color: #0062cc;
+  transform: scale(1.05);
+}
+.buyer-section .explore-heading {
+  font-size: 1.5rem;
+}
+@media (max-width: 576px) {
+  .buyer-section .explore-heading {
+    font-size: 1.2rem;
+  }
+}
+.buyer-section .explore-heading .highlight-text {
+  color: dodgerblue;
+}
+.buyer-section .business-card-link {
+  text-decoration: none;
+  color: transparent;
+  transition: transform 0.3s ease;
+}
+.buyer-section .business-card-link:hover {
+  transform: scale(1.02);
+}
+.buyer-section .business-card {
+  transition: box-shadow 0.3s ease;
+}
+.buyer-section .business-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.buyer-section .business-title {
+  color: dodgerblue;
+}
+.buyer-section .business-image {
+  max-width: 100%;
+  height: auto;
+}
+.buyer-section .business-description {
+  font-size: 0.9rem;
+  color: #555;
+}
+.buyer-section .deal-price h6 {
+  color: green;
+  font-weight: 800;
+}
+.buyer-section .deal-price p {
+  font-size: 16px;
+  font-weight: 700;
+}
+@media (max-width: 576px) {
+  .buyer-section .col-2:not(.deal-price) {
+    display: none;
+  }
+  .buyer-section .business-title h4 {
+    font-size: 1.2rem;
+  }
+  .buyer-section .deal-price p {
+    font-size: 1rem;
+  }
+}
+
+.seller {
+  padding: 5px 75px;
+}
+.seller .sell-heading {
+  margin-top: 150px;
+}
+.seller .highlight-text {
+  color: dodgerblue;
+}
+.seller .sell-text {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .seller {
+    padding: 20px 15px;
+  }
+  .seller .sell-heading {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .seller .sell-text {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .seller {
+    padding: 10px 10px;
+  }
+  .seller .sell-heading {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  .seller .sell-text {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+.seller .step {
+  margin-bottom: 1rem;
+}
+.seller .step h5 {
+  font-weight: bold;
+}
+.seller .step p {
+  font-size: 14px;
+}
+
+.profile-section {
+  padding: 20px;
+}
+.profile-section .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+  border-color: #007bff;
+}
+.profile-section .profile-img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-section .form-control[readonly] {
+  background-color: #f8f9fa;
+  border: 1px solid dodgerblue;
+}
+.profile-section .status {
+  margin-top: 10px;
+}
+.profile-section .status .badge {
+  padding: 10px;
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .profile-section .profile-section {
+    padding: 10px;
+  }
+  .profile-section .form-group {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .profile-section .profile-section {
+    padding: 10px !important;
+  }
+}
+
+.signup form .form-label {
+  font-weight: bold;
+}
+.signup form .form-control {
+  border-radius: 5px;
+}
+.signup .btn-outline-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-color: #4285F4;
+  color: #4285F4;
+}
+.signup .btn-outline-primary:hover {
+  background-color: #f8f9fa;
+}
+.signup .btn-outline-primary img {
+  margin-right: 10px;
+}
+@media (max-width: 576px) {
+  .signup .container {
+    padding: 20px;
+  }
+  .signup .card {
+    padding: 15px;
+  }
+}
+
+.signin form .form-label {
+  font-weight: bold;
+}
+.signin form .form-control {
+  border-radius: 5px;
+}
+.signin .btn-outline-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-color: #4285F4;
+  color: #4285F4;
+}
+.signin .btn-outline-primary:hover {
+  background-color: #f8f9fa;
+}
+.signin .btn-outline-primary img {
+  margin-right: 10px;
+}
+@media (max-width: 576px) {
+  .signin .container {
+    padding: 20px;
+  }
+  .signin .card {
+    padding: 15px;
+  }
+}
+
+.broker-section {
+  padding: 10px;
+}
+.broker-section .broker-card {
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.broker-section .broker-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.broker-section .broker-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+.broker-section .broker-card .card-body {
+  padding: 20px;
+}
+.broker-section .broker-card .card-body .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.broker-section .broker-card .card-body .card-title img {
+  width: 20px;
+}
+.broker-section .broker-card .card-body .card-title .broker-name {
+  text-decoration: none;
+  color: #007bff;
+}
+.broker-section .broker-card .card-body .card-title .broker-name:hover {
+  text-decoration: underline;
+}
+.broker-section .broker-card .card-body .broker-title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.broker-section .broker-card .card-body .broker-location {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+.broker-section .broker-card .card-body .broker-location i {
+  color: #007bff;
+}
+.broker-section .broker-card .card-body .broker-description {
+  font-size: 0.875rem;
+  margin-top: 10px;
+  color: #495057;
+}
+.broker-section .broker-card .card-body .see-more {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 10px;
+}
+.broker-section .broker-card .card-body .see-more i {
+  font-size: 0.85rem;
+  margin-left: 5px;
+}
+.broker-section .broker-card .card-body .see-more:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .broker-section .card-body {
+    padding: 15px;
+  }
+  .broker-section .broker-card .card-img-top {
+    height: 180px;
+  }
+}
+@media (max-width: 576px) {
+  .broker-section .card-body {
+    padding: 10px;
+  }
+  .broker-section .broker-card .card-img-top {
+    height: 150px;
+  }
+}
+
+.deal {
+  padding: 10px 75px;
+}
+@media (max-width: 768px) {
+  .deal .deal {
+    padding: 10px 15px !important;
+  }
+}
+
+.buyers-list {
+  padding: 50px 0;
+}
+.buyers-list h2 {
+  color: #007bff;
+  font-weight: 600;
+}
+.buyers-list p {
+  color: #6c757d;
+}
+.buyers-list .search-input {
+  border-radius: 0.25rem;
+  padding: 10px;
+  border: 2px solid #007bff;
+}
+.buyers-list .buyer-card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.buyers-list .buyer-card:hover {
+  transform: translateY(-10px);
+}
+.buyers-list .buyer-card .card-img-top {
+  border-radius: 8px 8px 0 0;
+  height: 250px;
+  object-fit: cover;
+}
+.buyers-list .buyer-card .card-body {
+  padding: 15px;
+}
+.buyers-list .buyer-card .card-body .card-title {
+  color: #007bff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.buyers-list .buyer-card .card-body .card-title i {
+  margin-right: 10px;
+}
+.buyers-list .buyer-card .card-body .buyer-role {
+  color: #6c757d;
+  font-weight: 500;
+}
+.buyers-list .buyer-card .card-body p {
+  color: #6c757d;
+}
+.buyers-list .buyer-card .card-body p i {
+  margin-right: 5px;
+}
+@media (max-width: 768px) {
+  .buyers-list .search-input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .buyers-list .buyer-card {
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
