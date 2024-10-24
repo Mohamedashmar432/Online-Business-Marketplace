@@ -84,7 +84,7 @@ composer update
 #### Landing page
 ![App Screenshot](src/assets/website_screenshots/landing_page.png)
 #### signin Page
-![App Screenshot](src/assets/website_screenshots/signon.png)
+![App Screenshot](src/assets/website_screenshots/signin.png)
 #### signup page
 ![App Screenshot](src/assets/website_screenshots/signup.png)
 #### profile Page
@@ -98,7 +98,7 @@ composer update
 #### business page
 ![App Screenshot](src/assets/website_screenshots/business.png)
 #### business list page
-![App Screenshot](src/assets/website_screenshots'/business_listing.png)
+![App Screenshot](src/assets/website_screenshots/business_listing.png)
 
 
 
