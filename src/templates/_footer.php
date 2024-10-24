@@ -15,11 +15,11 @@
             <div class="col-lg-4 col-md-6">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#aboutus">About</a></li>
+                    <li><a href="/#categories">Services</a></li>
+                    <li><a href="/profile.php">Portfolio</a></li>
+                    <li><a href="/#contactus">Contact</a></li>
                 </ul>
             </div>
             <!-- Contact Info -->

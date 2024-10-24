@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ajax']) && $_POST['aja
         <div class="row">
 
             <!-- Profile Picture Section -->
-            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 d-flex justify-content-center align-items-center" data-aos="fade-right">
                 <div class="profile-picture text-center">
                     <img src="./src/assets/about-us.jpg" alt="Profile" class="profile-img">
                     <div class="status">
@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ajax']) && $_POST['aja
                 </div>
             </div>
             <!-- Personal Info Section -->
-            <div class="col-lg-8">
+            <div class="col-lg-8" data-aos="fade-left">
                 <div class="card p-4 mb-4">
                     <h3 class="card-title text-center">Personal Information</h3>
                     <div class="row">
@@ -115,7 +115,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ajax']) && $_POST['aja
         </div>
 
         <!-- Business Sold/ Bought Section -->
-        <div class="row mt-4">
+        <div class="row mt-4" data-aos="fade-up">
             <div class="col-md-6">
                 <div class="card p-4 mb-4">
                     <h5 class="card-title">Businesses Sold</h5>

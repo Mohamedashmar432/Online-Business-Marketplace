@@ -1,5 +1,5 @@
 <section class="feature py-2">
-    <div class="container justify-content-between">
+    <div class="container justify-content-between" data-aos="fade-up">
         <h4 class="text-center py-2">
             <span class="badge text-bg-primary  rounded-pill">Our Services</span>
         </h4>
