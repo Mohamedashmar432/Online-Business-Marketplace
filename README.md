@@ -81,24 +81,24 @@ composer update
 
     
 ## Screenshots
-
+#### Landing page
 ![App Screenshot](src/assets/website_screenshots/landing_page.png)
-
-![App Screenshot]('src/assets/website_screenshots/signon.png')
-
-![App Screenshot]('src/assets/website_screenshots/signup.png')
-
-![App Screenshot]('src/assets/website_screenshots/progile.png')
-
-![App Screenshot]('src/assets/website_screenshots/selling.png')
-
-![App Screenshot]('src/assets/website_screenshots/buyers.png')
-
-![App Screenshot]('src/assets/website_screenshots/brokers.png')
-
-![App Screenshot]('src/assets/website_screenshots/business.png')
-
-![App Screenshot]('src/assets/website_screenshots'/business_listing.png)
+#### signin Page
+![App Screenshot](src/assets/website_screenshots/signon.png)
+#### signup page
+![App Screenshot](src/assets/website_screenshots/signup.png)
+#### profile Page
+![App Screenshot](src/assets/website_screenshots/profile.png)
+#### Selling Page
+![App Screenshot](src/assets/website_screenshots/selling.png)
+#### Buyer list page
+![App Screenshot](src/assets/website_screenshots/buyers.png)
+#### broker lsit page
+![App Screenshot](src/assets/website_screenshots/brokers.png)
+#### business page
+![App Screenshot](src/assets/website_screenshots/business.png)
+#### business list page
+![App Screenshot](src/assets/website_screenshots'/business_listing.png)
 
 
 
