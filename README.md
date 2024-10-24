@@ -82,23 +82,23 @@ composer update
     
 ## Screenshots
 
-![App Screenshot]('./src/assets/website_screenshots/landing_page.png')
+![App Screenshot]('/src/assets/website_screenshots/landing_page.png')
 
-![App Screenshot]('./src/assets/website_screenshots/signon.png')
+![App Screenshot]('/src/assets/website_screenshots/signon.png')
 
-![App Screenshot]('./src/assets/website_screenshots/signup.png')
+![App Screenshot]('/src/assets/website_screenshots/signup.png')
 
-![App Screenshot]('./src/assets/website_screenshots/progile.png')
+![App Screenshot]('/src/assets/website_screenshots/progile.png')
 
-![App Screenshot]('./src/assets/website_screenshots/selling.png')
+![App Screenshot]('/src/assets/website_screenshots/selling.png')
 
-![App Screenshot]('./src/assets/website_screenshots/buyers.png')
+![App Screenshot]('/src/assets/website_screenshots/buyers.png')
 
-![App Screenshot]('./src/assets/website_screenshots/brokers.png')
+![App Screenshot]('/src/assets/website_screenshots/brokers.png')
 
-![App Screenshot]('./src/assets/website_screenshots/business.png')
+![App Screenshot]('/src/assets/website_screenshots/business.png')
 
-![App Screenshot]('./src/assets/website_screenshots'/business_listing.png)
+![App Screenshot]('/src/assets/website_screenshots'/business_listing.png)
 
 
 
