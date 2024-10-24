@@ -82,7 +82,7 @@ composer update
     
 ## Screenshots
 
-![App Screenshot]('src/assets/website_screenshots/landing_page.png')
+![App Screenshot](src/assets/website_screenshots/landing_page.png)
 
 ![App Screenshot]('src/assets/website_screenshots/signon.png')
 
