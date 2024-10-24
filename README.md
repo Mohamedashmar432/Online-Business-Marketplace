@@ -36,7 +36,30 @@ Quick start with your development environment
 git clone https://github.com/Mohamedashmar432/Online-Business-Marketplace.git
 cd Online-Business-Marketplace
 ```
+- If Node.js is not installed on your machine, download and install it from [Node.js official website](https://nodejs.org/)
 
+- This will also install npm (Node Package Manager) with Node.js, which is required to install Sass.
+
+- Run the following command to initialize the project in  DIR: `online-business-Marketplace/tools`
+
+```
+npm init -y
+```
+- This will create a package.json file in your project directory, which will track all dependencies.
+
+- To install Sass, use the following command
+
+```
+npm install sass --save-dev
+
+```
+
+- To convert all sass/scss file to css file run this command in `tools` DIR
+
+```
+npx sass ./sass/styles.scss ../src/assets/css/style.css
+
+```
 - set up your database with server or XAMP server 
 
 - Import `database.sql`(file located in root directory of this repo) file to your mysql server to create database schema.
