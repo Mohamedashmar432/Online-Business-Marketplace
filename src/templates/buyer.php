@@ -7,7 +7,7 @@
                 <input type="text" class="form-control search-input" placeholder="Search buyers by region, industry, or specialty">
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="fade-up">
             <!-- Buyer Card 1 -->
             <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="buyer-card card">

@@ -2,7 +2,7 @@
 $business = ["shopify", "adsence", "affilate", "e-commerce", "restaurent", "manufacture", "franchies", "crypto", "hotels", "youtube_channels", "clothing", "real_estate"];
 ?>
 <section class="categories pt-5" id="categories">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <h4 class="text-center py-4">
             <span class="badge text-bg-primary rounded-pill animate__animated animate__slideInUp">Top Business Categories</span>
         </h4>

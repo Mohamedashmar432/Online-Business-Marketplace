@@ -7,7 +7,7 @@ if(isset($_GET['id'])){
 ?>
 
 <section class="deal">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
             <div class="col-lg-7 col-md-7 col-sm-12 ">
                 <h3 class="text-start my-3"><?php  echo $deal['business_name']; ?></h3>

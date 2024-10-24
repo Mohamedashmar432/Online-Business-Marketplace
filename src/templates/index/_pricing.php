@@ -1,7 +1,7 @@
 <!-- //todo: need an page for pricing to add payment section . -->
 
 <section class="pricing py-5">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <h4 class="text-center py-4">
             <span class="badge text-bg-primary rounded-pill">Our pricing</span>
         </h4>

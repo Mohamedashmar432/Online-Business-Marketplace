@@ -1,6 +1,6 @@
 <!-- //todo: Need to build function for cantactus in index page . -->
 <section class="contact py-5" id="cantactus">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <h4 class="text-center py-4">
             <span class="badge text-bg-primary rounded-pill">Contact Us</span>
         </h4>

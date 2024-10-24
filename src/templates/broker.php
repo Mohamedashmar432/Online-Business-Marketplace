@@ -13,7 +13,7 @@ $brokers = json_decode($brokers_file, true);
                 </div>
             </div>
             <?php foreach($brokers as $broker){ ?>
-            <div class=" col-md-4 col-sm-12 mb-4">
+            <div class=" col-md-4 col-sm-12 mb-4" data-aos="fade-up">
                 <div class="card broker-card shadow-sm">
                     <img src="./src/assets/<?php echo $broker['photo']; ?>" class="card-img-top" alt="Amber Burke" loading="lazy">
                     <div class="card-body">

@@ -1,5 +1,5 @@
 <section class="about-section" id="aboutus">
-    <div class="about-container">
+    <div class="about-container "  data-aos="fade-up">
         <h4 class="about-badge-container text-center py-2">
             <span class="about-badge badge rounded-pill">About us</span>
         </h4>
